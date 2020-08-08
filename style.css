@@ -16,7 +16,7 @@ header {
 
 .destaque-inicio {
   align-items: center;
-  background-color: rgba(189, 160, 211, 0.8);
+  background-color: rgba(102, 51, 153, 0.9);
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@ header {
   width: 60%;
 }
 
-h1 {
+.destaque-inicial h1 {
   text-align: center;
   font-size: 3rem;
 }
@@ -41,7 +41,41 @@ hr {
   width: 70%;
 }
 
-h2 {
+.destaque-inicial h2 {
   margin-top: 15px;
   letter-spacing: 5px;
+}
+
+.dados-iniciais {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 15px;
+}
+
+.titulos-destaque {
+  background-color: rgba(102, 51, 153, .8);
+  border-radius: 3px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.lista-sobre-mim {
+  list-style: none;
+  display: flex;
+}
+
+.lista-sobre-mim li i {
+  margin: 10px;
+  font-size: 4rem;
+  color: rgba(102, 51, 153, .8);
+}
+
+.coluna-foto img {
+  border-radius: 50%;
+  border-color: rgba(102, 51, 153, 0.9);
+  border-style: solid;
+  border-width: 0.5rem;
 }
