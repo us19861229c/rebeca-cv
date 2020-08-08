@@ -1,0 +1,47 @@
+* {
+  margin : 0;
+  padding: 0;
+}
+
+body {
+  background-color:rgb(255, 250, 222);
+}
+
+header {
+  background-image: url(https://images.unsplash.com/photo-1550517355-375c103a6a81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.destaque-inicio {
+  align-items: center;
+  background-color: rgba(189, 160, 211, 0.8);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: center;
+  left: 50%;
+  position: relative;
+  top: 40%;
+  transform: translate(-50%, -50%); 
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+hr { 
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px 0;
+  width: 70%;
+}
+
+h2 {
+  margin-top: 15px;
+  letter-spacing: 5px;
+}
