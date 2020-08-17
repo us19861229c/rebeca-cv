@@ -5,6 +5,7 @@
 
 body {
   background-color:rgb(255, 250, 222);
+  color:rgb(255, 250, 222);
 }
 
 header {
@@ -62,12 +63,12 @@ hr {
   text-align: center;
 }
 
-.lista-sobre-mim {
+.itens-sobre-mim {
   list-style: none;
   display: flex;
 }
 
-.lista-sobre-mim li i {
+.itens-sobre-mim li i {
   margin: 10px;
   font-size: 4rem;
   color: rgba(102, 51, 153, .8);
@@ -78,4 +79,25 @@ hr {
   border-color: rgba(102, 51, 153, 0.9);
   border-style: solid;
   border-width: 0.5rem;
+}
+
+.conhecimentos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.web {
+  width: 30%;
+}
+
+.portfolio {
+  width: 60%
+}
+.portfolio ul {
+  display: flex;
+}
+
+.portfolio ul li {
+  list-style: none;
+  
 }
