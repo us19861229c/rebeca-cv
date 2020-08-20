@@ -5,7 +5,7 @@
 
 body {
   background-color:rgb(255, 250, 222);
-  color:rgb(255, 250, 222);
+  color: rebeccapurple;
 }
 
 header {
@@ -19,6 +19,7 @@ header {
   align-items: center;
   background-color: rgba(102, 51, 153, 0.9);
   border-radius: 4px;
+  color:rgb(255, 250, 222);
   display: flex;
   flex-direction: column;
   height: 60%;
@@ -57,6 +58,7 @@ hr {
 .titulos-destaque {
   background-color: rgba(102, 51, 153, .8);
   border-radius: 3px;
+  color:rgb(255, 250, 222);
   letter-spacing: 2px;
   margin-bottom: 10px;
   padding: 15px;
@@ -99,5 +101,25 @@ hr {
 
 .portfolio ul li {
   list-style: none;
-  
+}
+
+.experiencias {
+  display:grid;
+  grid-column: 2fr 1fr;
+  grid-row: 1fr 1fr;
+  grid-template-areas: 
+  'experiencia estudo'
+  'experiencia estudo' ;
+}
+
+.trabalho {
+  grid-area: experiencia;
+}
+
+.cursos {
+  grid-area: estudo;
+}
+
+.idiomas {
+  grid-area: estudo;
 }
